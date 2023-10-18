@@ -77,7 +77,7 @@ h3{
     background-color: rgb(79, 45, 8);
 }
 .cookie-title{
-    font-size: 50px;
+    font-size: 30px;
     line-height: .5;
     font-family: cursive;
 }
@@ -116,7 +116,7 @@ h3{
 }
 
 .tomegg-title{
-    font-size: 50px;
+    font-size: 30px;
     line-height: .5;
     font-family: cursive;
 }
@@ -167,7 +167,7 @@ h3{
 }
 
 .pancakes-title{
-    font-size: 50px;
+    font-size: 30px;
     line-height: .5;
     font-family: cursive;
 }
@@ -186,7 +186,7 @@ h3{
     text-align: center;
     font-size: 20px;
 }
-.cookie-p{
+.cake-p{
     text-align: center;
     font-size: 20px;
 }
