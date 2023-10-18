@@ -1,0 +1,286 @@
+/* same on all pages */
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+li a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: lightgray;
+    border: solid 2px darkgray;
+}
+li a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: darkgray;
+}
+li a:focus{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+.skip a{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: auto;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: lightgray;
+    border: solid 2px darkgray;
+    overflow: hidden;
+}
+.skip a:focus{
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+  
+/* end of same on all pages */
+
+.imgmap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px black;
+    height: 475px;
+}
+
+.travel-flags{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.picture-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LONDON */
+
+/* .london-gif{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.london-info{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+.london-banner{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+.header-lon{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end:4;
+    margin-top: -5px;
+    margin-bottom: auto;
+    letter-spacing: 50px;
+}
+
+.london-text-block{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end:2;
+    background-color: rgba(244,67,54, 0.3);
+    text-align: center;
+    padding: 20px;
+}
+.UK-map{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    border: 10px solid rgba(244,67,54, 0.3);
+}
+.photo-gallery{
+    position: relative;
+    text-align: center;
+}
+.img2{
+    position:absolute;
+    left: 15%;
+    top: -10%;
+}
+.img3{
+    position: absolute;
+    left: 15%;
+    bottom: -30%;
+}
+.img4{
+    position: absolute;
+    right: 15%;
+    bottom: -30%;
+}
+.img6{
+    position: absolute;
+    right: 15%;
+    top: -10%;
+}
+
+
+/* PARIS */
+/* .paris-gif{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+.header-par{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+.paris-info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.paris-text-block{
+    background-color:  lightblue;
+    text-align: center;
+}
+
+/* BRUSSELS */
+.brussels-gif{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-brus{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+.brussels-info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.brus-text-block{
+    background-color:  rgba(244, 158, 54);
+    text-align: center;
+}
+/* BERLIN */
+.berlin-gif{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-ber{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+.berlin-info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.ber-text-block{
+    background-color: rgba(244, 200, 54);
+    text-align: center;
+}
+
+
+/* MADRID */
+.mad-gif{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-mad{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+.mad-info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.mad-text-block{
+    background-color: rgb(182, 65, 65);
+    text-align: center;
+}
