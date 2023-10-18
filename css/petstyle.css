@@ -103,8 +103,9 @@ nav li a:focus{
     padding: 10px;
     border-radius: 30px;
 }
-.profile-buttons h1{
-    text-align: center;
+
+.pet-names{
+    display: none;
 }
 
 .bacon{
@@ -360,4 +361,129 @@ nav li a:focus{
     padding-left: 40px;
     text-align: left;
     line-height: 3;
+}
+
+@media screen and (max-width:800px) {
+    .profile-buttons{
+        display: none;
+    }
+    
+    .pet-names {
+        display: block;
+    }
+    .pet-names a{
+        width: 100px;
+        background-color: skyblue;
+        border: 5px solid #25257c;
+        padding: 10px;
+    }
+    .pet-names a:hover{
+        background-color: white;
+        color: #25257c;
+        border: 5px solid skyblue;
+    }
+    .bacon{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bacon-info h2{
+        text-align: center;
+    }
+    .bacon-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .bacon-likes{
+        padding: 5px;
+    }
+    .bacon-likes h3{
+        line-height: 0;
+    }
+    .bacon-likes ul{
+        line-height: 1.5;
+    }
+
+    .rocky{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .rocky-info h2{
+        text-align: center;
+    }
+    .rocky-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .rocky-likes{
+        padding: 5px;
+    }
+    .rocky-likes h3{
+        line-height: 0;
+    }
+    .rocky-likes ul{
+        line-height: 1.5;
+    }
+
+    .cheeto{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cheeto-info h2{
+        text-align: center;
+    }
+    .cheeto-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .cheeto-likes{
+        padding: 5px;
+    }
+    .cheeto-likes h3{
+        line-height: 0;
+    }
+    .cheeto-likes ul{
+        line-height: 1.5;
+    }
+
+    .oliver{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .oliver-info h2{
+        text-align: center;
+    }
+    .oliver-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .oliver-likes{
+        padding: 5px;
+    }
+    .oliver-likes h3{
+        line-height: 0;
+    }
+    .oliver-likes ul{
+        line-height: 1.5;
+    }
+
+    .tucker{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tucker-info h2{
+        text-align: center;
+    }
+    .tucker-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .tucker-likes{
+        padding: 5px;
+    }
+    .tucker-likes h3{
+        line-height: 0;
+    }
+    .tucker-likes ul{
+        line-height: 1.5;
+    }
 }
