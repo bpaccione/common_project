@@ -68,6 +68,21 @@ h3{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+     }
+  
+    /*Turn off parallax*/
+    header{
+      background-attachment: initial;
+    }
+}
   
   
 /* end of same on all pages */
@@ -77,17 +92,16 @@ h3{
     margin-left: auto;
     margin-right: auto;
     border: solid 10px black;
-    height: 475px;
+    width: 100%;
+    height: auto;
 }
-
-.travel-flags{
+/* .travel-flags{
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
     padding-bottom: 50px;
-}
-
+} */
 .picture-grid{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -95,28 +109,6 @@ h3{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* LONDON */
-
-/* .london-gif{
-    grid-row-start: 1;
-    grid-column-start: 1;
-    overflow: hidden;
-    margin-top: 18px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
 .london-info{
     display:grid;
     grid-template-columns: auto auto auto;
@@ -125,7 +117,7 @@ h3{
 .london-banner{
     grid-row-start: 1;
     grid-column-start: 1;
-    grid-column-end:4;
+    grid-column-end:3;
 }
 .header-lon{
     grid-row-start: 1;
@@ -173,19 +165,6 @@ h3{
     right: 15%;
     top: -10%;
 }
-
-
-/* PARIS */
-/* .paris-gif{
-    grid-row-start: 1;
-    grid-column-start: 1;
-    overflow: hidden;
-    margin-top: 18px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 
 .header-par{
     grid-row-start: 1;

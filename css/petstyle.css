@@ -59,6 +59,22 @@ nav li a:focus{
     margin-left: 10px;
 }
 
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    .skip a{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+     }
+  
+    /*Turn off parallax*/
+    header{
+      background-attachment: initial;
+    }
+}
+
 .profile-buttons{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
