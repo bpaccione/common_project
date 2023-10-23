@@ -387,17 +387,100 @@ nav li a:focus{
     .pet-names {
         display: block;
     }
-    .pet-names a{
-        width: 100px;
-        background-color: skyblue;
-        border: 5px solid #25257c;
+    .button1{
+        display: inline-block;
         padding: 10px;
-    }
-    .pet-names a:hover{
-        background-color: white;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color: #b7b7ef;
+        border-radius: 10px;
         color: #25257c;
-        border: 5px solid skyblue;
+        border: #25257c solid 4px;
+        box-shadow: 0 9px #999;
+
     }
+    .button1:active{
+        background-color: #b7b7ef;
+        border: #25257c solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .button2{
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color:lightpink;
+        border-radius: 10px;
+        border: rgba(146, 15, 52) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button2:active{
+        background-color: lightpink;
+        border: rgba(146, 15, 52) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .button3{
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color:lightblue;
+        border-radius: 10px;
+        border: rgb(24, 91, 113) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button3:active{
+        background-color: lightblue;
+        border: rgb(24, 91, 113) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    
+    .button4{
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color:lightgreen;
+        border-radius: 10px;
+        border: rgb(1, 50, 1) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button4:active{
+        background-color: lightgreen;
+        border: rgb(1, 50, 1) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .button5{
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color:orange;
+        border-radius: 10px;
+        border: rgb(53, 35, 3) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button5:active{
+        background-color: orange;
+        border: rgb(53, 35, 3) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+
+
     .bacon{
         display: grid;
         grid-template-columns: 1fr;
