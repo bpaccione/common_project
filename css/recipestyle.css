@@ -392,7 +392,107 @@ h3{
     .img3{
         display:none
     }
+    .cookie-title{
+        font-size: 40px;
+        line-height: 1;
+        background-color: rgb(196, 170, 143);
+        padding: 10px;
+    }
+    .cookie-header{
+        background-color: rgb(196, 170, 143);
+        padding: 10px;
+    }
+    .cookie-directions{
+        background-color: rgb(196, 170, 143);
+        padding: 10px;
+    }
+    .cookie-recipe{
+        border-style: solid;
+        border-width: 5px 0px;
+        border-color: rgb(196, 170, 143)
+    }
+    
 
+    .tomegg-title{
+        font-size: 40px;
+        line-height: 1;
+        background-color: rgb(255, 145, 145);
+        padding: 20px;
+    }
+    .tom-header{
+        background-color: rgb(255, 145, 145);
+        padding: 10px;
+    }
+    .tom-directions{
+        background-color: rgb(255, 145, 145);
+        padding: 10px;
+    }
+    .tomegg-recipe{
+        border-style: solid;
+        border-width: 5px 0px;
+        border-color: rgb(255, 145, 145)
+    }
+
+    .pancakes-title{
+        font-size: 40px;
+        line-height: 1;
+        background-color: rgb(52, 184, 255);
+        padding: 20px;
+    }
+    .cake-header{
+        background-color: rgb(52, 184, 255);
+        padding: 10px;
+    }
+    .cake-directions{
+        background-color: rgb(52, 184, 255);
+        padding: 10px;
+    }
+    .cake-recipe{
+        border-style: solid;
+        border-width: 5px 0px;
+        border-color: rgb(52, 184, 255)
+    }
+
+    .cornbread-title{
+        font-size: 40px;
+        line-height: 1;
+        background-color: rgb(255, 229, 57);
+        padding: 20px;
+    }
+    .corn-header{
+        background-color: rgb(255, 229, 57);
+        padding: 10px;
+    }
+    .corn-directions{
+        background-color: rgb(255, 229, 57);
+        padding: 10px;
+    }
+    .cornbread-recipe{
+        border-style: solid;
+        border-width: 5px 0px;
+        border-color: rgb(255, 229, 57)
+    }
+
+    .potato-title{
+        font-size: 40px;
+        line-height: 1;
+        background-color: rgb(103, 211, 79);
+        padding: 20px;
+    }
+    .potato-header{
+        background-color: rgb(103, 211, 79);
+        padding: 10px;
+    }
+    .potato-directions{
+        background-color: rgb(103, 211, 79);
+        padding: 10px;
+    }
+    .potato-recipe{
+        border-style: solid;
+        border-width: 5px 0px;
+        border-color: rgb(103, 211, 79)
+
+    }
 
 }
 
