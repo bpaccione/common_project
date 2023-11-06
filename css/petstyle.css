@@ -379,18 +379,18 @@ nav li a:focus{
     line-height: 3;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 450px) {
     .profile-buttons{
         display: none;
     }
     
     .pet-names {
-        display: block;
+        display: grid;
     }
     .button1{
         display: inline-block;
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
         cursor: pointer;
         text-align: center;
         background-color: #b7b7ef;
@@ -409,7 +409,7 @@ nav li a:focus{
     .button2{
         display: inline-block;
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
         cursor: pointer;
         text-align: center;
         background-color:lightpink;
@@ -427,7 +427,7 @@ nav li a:focus{
     .button3{
         display: inline-block;
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
         cursor: pointer;
         text-align: center;
         background-color:lightblue;
@@ -446,7 +446,7 @@ nav li a:focus{
     .button4{
         display: inline-block;
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
         cursor: pointer;
         text-align: center;
         background-color:lightgreen;
@@ -464,14 +464,13 @@ nav li a:focus{
     .button5{
         display: inline-block;
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
         cursor: pointer;
         text-align: center;
         background-color:orange;
         border-radius: 10px;
         border: rgb(53, 35, 3) solid 4px;
         box-shadow: 0 9px #999;
-
     }
     .button5:active{
         background-color: orange;
@@ -585,4 +584,296 @@ nav li a:focus{
     .tucker-likes ul{
         line-height: 1.5;
     }
+}
+
+@media screen and (max-width:800px) and (min-width:450px){
+    .profile-buttons{
+        display: none;
+    }
+    .pet-names {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button1{
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        background-color: #b7b7ef;
+        border-radius: 10px;
+        color: #25257c;
+        border: #25257c solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button1:hover{
+        background-color: #e9e9ff;
+    }
+    .button1:focus{
+        background-color: #e9e9ff;
+    }
+    .button1:active{
+        background-color: #b7b7ef;
+        border: #25257c solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .button2{
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        background-color:lightpink;
+        border-radius: 10px;
+        border: rgba(146, 15, 52) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button2:hover{
+        background-color: rgb(255, 236, 239);
+    }
+    .button2:focus{
+        background-color: rgb(255, 236, 239);
+    }
+    .button2:active{
+        background-color: lightpink;
+        border: rgba(146, 15, 52) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .button3{
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        background-color:lightblue;
+        border-radius: 10px;
+        border: rgb(24, 91, 113) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button3:hover{
+        background-color: rgb(233, 250, 255);
+    }
+    .button3:focus{
+        background-color: rgb(233, 250, 255);
+    }
+    .button3:active{
+        background-color: lightblue;
+        border: rgb(24, 91, 113) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    
+    .button4{
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        background-color:lightgreen;
+        border-radius: 10px;
+        border: rgb(1, 50, 1) solid 4px;
+        box-shadow: 0 9px #999;
+
+    }
+    .button4:hover{
+        background-color: rgb(230, 255, 230);
+    }
+    .button4:focus{
+        background-color: rgb(230, 255, 230);
+    }
+    .button4:active{
+        background-color: lightgreen;
+        border: rgb(1, 50, 1) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .button5{
+        display: inline-block;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        background-color:orange;
+        border-radius: 10px;
+        border: rgb(53, 35, 3) solid 4px;
+        box-shadow: 0 9px #999;
+    }
+    .button5:hover{
+        background-color: rgb(255, 241, 230);
+    }
+    .button5:focus{
+        background-color: rgb(255, 241, 230);
+    }
+    .button5:active{
+        background-color: orange;
+        border: rgb(53, 35, 3) solid 4px;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px)
+    }
+    .bacon{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .bacon-img{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .bacon-info{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .bacon-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .bacon-likes{
+        padding: 5px;
+        grid-row-start: 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .bacon-likes h3{
+        line-height: 2;
+    }
+    .bacon-likes ul{
+        line-height: 3;
+    }
+
+    .rocky{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .rocky-img{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 4;
+
+    }
+    .rocky-info{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .rocky-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .rocky-likes{
+        padding: 5px;
+        grid-row-start: 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .rocky-likes h3{
+        line-height: 2;
+    }
+    .rocky-likes ul{
+        line-height: 3;
+    }
+
+    .cheeto{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .cheeto-img{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .cheeto-info{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .cheeto-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .cheeto-likes{
+        padding: 5px;
+        grid-row-start: 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .cheeto-likes h3{
+        line-height: 2;
+    }
+    .cheeto-likes ul{
+        line-height: 3;
+    }
+
+    .oliver{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .oliver-img{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .oliver-info{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .oliver-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .oliver-likes{
+        padding: 5px;
+        grid-row-start: 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .oliver-likes h3{
+        line-height: 2;
+    }
+    .oliver-likes ul{
+        line-height: 3;
+    }
+
+    .tucker{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .tucker-img{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .tucker-info{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .tucker-info p{
+        text-align: left;
+        padding: 10px;
+    }
+    .tucker-likes{
+        padding: 5px;
+        grid-row-start: 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .tucker-likes h3{
+        line-height: 2;
+    }
+    .tucker-likes ul{
+        line-height: 3;
+    }
+
+
+
+
 }
