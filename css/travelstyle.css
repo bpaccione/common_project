@@ -86,14 +86,6 @@ p{
     }
 }
 
-.imgmap{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 10px black;
-    width: 100%;
-    height: auto;
-}
 .img1{
     width: 100%;
     height: auto;
@@ -167,7 +159,7 @@ p{
 
 
 @media screen and (max-width:450px) {
-    .imgmap{
+    .picture-grid{
         display:none;
     }
     .city-names{
@@ -285,8 +277,8 @@ p{
     }
 }
 
-@media screen and (max-width:800px) and (min-width:450px){
-    .imgmap{
+@media screen and (max-width:1279px) and (min-width:450px){
+    .picture-grid{
         display:none;
     }
     .city-names{
@@ -500,16 +492,74 @@ p{
 }
 
 @media screen and (min-width:1280px) {
-    /* .photo-gallery{
-        width: 25%;
-        margin: 6px 0;
+    .picture-grid{
+        width: 60%;
+        margin: auto;
+        border: black 2px solid;
     }
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      } */
+    .picture-grid path{
+        fill: lightgray;
+        stroke: black;
+        stroke-width: 2px;
+    }
 
+    #BE{
+        fill:rgb(255, 216, 154);
+    }
+    #BE:hover {
+        fill:rgb(255, 132, 0);
+    }
+
+    #GER{
+        fill: rgb(255, 252, 191);
+    }
+    #GER:hover{
+        fill: rgb(255, 221, 0);
+    }
+
+    #UK{
+        fill: rgb(255, 217, 222);
+    }
+    #UK:hover{
+        fill: rgb(255, 88, 88);
+    }
+
+    #SPN{
+        fill: rgb(200, 110, 110);
+    }
+    #SPN:hover{
+        fill: rgb(99, 1, 1);
+    }
+
+    #FR{
+        fill: rgb(187, 229, 255);
+    }
+    #FR:hover{
+        fill: rgb(21, 165, 255);
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    .london-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .paris-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .brussels-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .madrid-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    
 }
 
 
