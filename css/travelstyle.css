@@ -492,6 +492,10 @@ p{
 }
 
 @media screen and (min-width:1280px) {
+    .city-names{
+        display: none;
+    }
+
     .picture-grid{
         width: 60%;
         margin: auto;
