@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="css/rest.css">
     <link rel="stylesheet" href="css/travelstyle.css">
 
     <title>Travel</title>
+    <script src="https://kit.fontawesome.com/0eb5312cec.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script> 
+        let nm = prompt("Hello and Welcome to My Page, type your name to get started!")
+        document.querySelector('h1').innerHTML = nm
+    </script>
+
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <nav>
         <ul>
-            <li><a href = "travel.html">Home/Travel</a> </li>
-            <li><a href = "recipes.html"> Recipies </a></li>
-            <li><a href = "pets.html"> Pets </a></li>
+            <li><a class="active" href = "travel.html">Home/Travel</a> </li>
+            <li><a class="nav" href = "recipes.html"> Recipies </a></li>
+            <li><a class="nav" href = "pets.html"> Pets </a></li>
         </ul>
     </nav>
     <center><h1>Travel</h1></center>
+    <p class = "directions">Hover and press on the place you want to visit!</p>
     <main id = "main">
         <div class = city-names id = city-names>
             <button class ="button1"><a href="#london-information"> London</a></button>
@@ -152,8 +160,14 @@
                 It is also europes largest concentration of high education institutions in subjects such as finance, arts and more! </p>
             </div>
             <div class = 'UK-map'>
-                <img src="images/uk-map.jpg" width="100%" alt="map of the UK">
+                <img class = "united_kingdom" src="images/uk-map.jpg" width="100%" alt="map of the UK">
+                <div class = "overlay-uk">
+                    <div class ="text-uk">United Kingdon</div>
+                </div>
             </div>            
+        </div>
+        <div class ="london-links">
+            <p> Check out this instagram page for more information about London! <a href="https://www.instagram.com/visitlondon/" class="fa-brands fa-instagram fa-beat"></a> </p> 
         </div>
             
         <h3>Photo Gallery</h3>
@@ -188,9 +202,17 @@
                 Louver home to many famous painting such as Picasso's “Mona Lisa” and Monet’s “Water Lilies” </p>
             </div>
             <div class="france-map">
-                <img src="images/france map.webp" width="100%" alt="map of france">
+                <img class = "france" src="images/france map.webp" width="100%" alt="map of france">
+                <div class = "overlay-france">
+                    <div class = "text-france">France</div>
+                </div>
             </div>
         </div>    
+
+        <div class ="paris-links">
+            <p> Check out this instagram page for more information about Paris! <a href="https://www.instagram.com/paristravellers/" class="fa-brands fa-instagram fa-beat"></a> </p> 
+        </div>
+
         <h3>Photo Gallery</h3>
         <div class="photo-gallery" id ="photo-gallery" >
             <img class= "img1" src="images/arc_de.jpg" width="200" alt="arc de triomphe">
@@ -224,8 +246,15 @@
                 belgium waffles and one of them is named after Brussels - “the Brussels Waffle”</p>
             </div>
             <div class="belgium-map">
-                <img src="images/belgium-map.jpeg" alt = "map of brussles" width="100%">
+                <img class = "belgium" src="images/belgium-map.jpeg" alt = "map of brussles" width="100%">
+                <div class = "overlay-belgium">
+                    <div class = "text-belgium">Belgium</div>
+                </div>
             </div>
+        </div>
+
+        <div class ="brussels-links">
+            <p> Check out this instagram page for more information about Brussels! <a href="https://www.instagram.com/brusselstravelguide/" class="fa-brands fa-instagram fa-beat"></a> </p> 
         </div>
 
         <h3>Photo Gallery</h3>
@@ -256,8 +285,15 @@
                 11-15 ft high.</p>
             </div>
             <div class="germany-map">
-                <img src="images/germany-map.webp" alt = "map of germany" width="100%">
+                <img class = "germany" src="images/germany-map.webp" alt = "map of germany" width="100%">
+                <div class = "overlay-germany">
+                    <div class = "text-germany">Germany</div>
+                </div>
             </div>
+        </div>
+
+        <div class ="berlin-links">
+            <p> Check out this instagram page for more information about Berlin! <a href="https://www.instagram.com/berlin.explore/?hl=en" class="fa-brands fa-instagram fa-beat"></a> </p> 
         </div>
         
         <h3>Photo Gallery</h3>
@@ -287,9 +323,17 @@
                 built in 1725, confirmed by the Guinness World Records.
                 </p>
             </div>
+
             <div class="spain-map">
-                <img src="images/spain-map.webp" alt="black and white map of spain" width="100%">
+                <img class = "spain" src="images/spain-map.webp" alt="black and white map of spain" width="100%">
+                <div class = "overlay-spain">
+                    <div class = "text-spain">Spain</div>
+                </div>
             </div>
+        </div>
+
+        <div class ="madrid-links">
+            <p> Check out this instagram page for more information about Madrid! <a href="https://www.instagram.com/visita_madrid/" class="fa-brands fa-instagram fa-beat"></a> </p> 
         </div>
             
         <h3>Photo Gallery</h3>
@@ -310,6 +354,13 @@
             <div class="desc5">Madrid!</div>
 
         </div>
+
+        <div class="footer">
+            <p class = "name">Brynn Paccione</p>
+            <p class = "class"> SI 339</p>
+            <p class = "project"> Common Project</p>
+        </div>
+
     </main>
 </body>
 </html> 
